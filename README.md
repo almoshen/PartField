@@ -38,7 +38,6 @@ pip install lightning==2.2 h5py yacs trimesh scikit-image loguru boto3
 pip install mesh2sdf tetgen pymeshlab plyfile einops libigl polyscope potpourri3d simple_parsing arrgh open3d
 pip install torch-scatter -f https://data.pyg.org/whl/torch-2.4.0+cu124.html
 pip install scikit-learn
-pip install open3d
 conda install conda-forge::pytz
 ```
 For errors like: ValueError: All ufuncs must have type numpy.ufunc. Received (<ufunc 'sph_legendre_p'>, <ufunc 'sph_legendre_p'>, <ufunc 'sph_legendre_p'>)
